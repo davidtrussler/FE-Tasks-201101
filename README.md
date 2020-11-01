@@ -13,14 +13,13 @@ If you are attempting the bonus tasks 5 & 6:
 
 1. Builds a JavaScript function that checks if a supplied word is a palindrome (reads the same backwards as forwards, e.g. kayak, rotator, radar etc). if the word is a palindrome, function returns `true`, otherwise it returns `false`.
 
-2. In HTML, build a page that holds a card which contains:
-  - An image (you can use a placeholder image from: https://place-hold.it/)
+2. Builds an HTML page that holds a card which contains:
+  - An image
   - The heading "An Introduction to the Biggest Mysteries of the Cosmos"
   - A Description "This course introduces what we know about the universe, before exploring four key mysteries that are the focus of cutting-edge research in cosmology."
   - A price
 
 Example of a card: 
-
 ![Card example](https://github.com/davidtrussler/NS_FE-test/blob/main/card.png "Card example")
 
 3. In SCSS, build styling to support the card that you have built in task 2 using BEM naming conventions.
@@ -38,3 +37,4 @@ var people = [ { name: "Bob", age: 29 }, { name: "Alice", age: 42, }, { name: "G
 5. Bonus: Cover the javascript functions you have written with unit tests.
 
 6. Bonus: Include build tools/packages to test javascript and compile your scss into css.
+
