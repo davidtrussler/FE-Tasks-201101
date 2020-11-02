@@ -45,4 +45,17 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+body {
+  font-family: Verdana, "Lucida Sans Unicode", "Lucida Sans", "Lucida Grande", sans-serif; }
+
+main {
+  background: #ebebeb;
+  padding: 1rem 4%; }
+
+p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin: 0 0 0.4375em;
+  padding: 0; }
+
 /*# sourceMappingURL=styles.css.map */
