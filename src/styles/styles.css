@@ -73,4 +73,30 @@ p {
   margin: 0 0 0.5em;
   padding: 0; }
 
+.card {
+  background: #fff;
+  padding: 0 0 1rem; }
+  .card > * {
+    padding: 0 1rem; }
+
+.card__image {
+  padding: 0; }
+  .card__image img {
+    width: 100%; }
+
+.card__heading {
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font-size: 2.25rem;
+  margin: 1rem 0; }
+
+.card__price {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #fff;
+  background: #f68b1f;
+  transform: translateY(-50%);
+  margin-bottom: -1rem; }
+
 /*# sourceMappingURL=styles.css.map */
