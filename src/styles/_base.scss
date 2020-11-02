@@ -6,6 +6,23 @@ body {
 main {
 	background: #ebebeb; 
 	padding: 1rem 4%;
+	margin: 0 auto; 
+	max-width: 1200px; 
+
+	@include respond-to(430px) {
+		padding-left: 3%; 
+		padding-right: 3%; 
+	}
+
+	@include respond-to(630px) {
+		padding-left: 2%; 
+		padding-right: 2%; 
+	}
+
+	@include respond-to(880px) {
+		padding-left: 1.5%; 
+		padding-right: 1.5%; 
+	}
 }
 
 p {

@@ -46,16 +46,31 @@ table {
   border-spacing: 0; }
 
 body {
-  font-family: Verdana, "Lucida Sans Unicode", "Lucida Sans", "Lucida Grande", sans-serif; }
+  font-family: Verdana, "Lucida Sans Unicode", "Lucida Sans", "Lucida Grande", sans-serif;
+  text-align: center; }
 
 main {
   background: #ebebeb;
-  padding: 1rem 4%; }
+  padding: 1rem 4%;
+  margin: 0 auto;
+  max-width: 1200px; }
+  @media screen and (min-width: 430px) {
+    main {
+      padding-left: 3%;
+      padding-right: 3%; } }
+  @media screen and (min-width: 630px) {
+    main {
+      padding-left: 2%;
+      padding-right: 2%; } }
+  @media screen and (min-width: 880px) {
+    main {
+      padding-left: 1.5%;
+      padding-right: 1.5%; } }
 
 p {
-  font-size: 0.875rem;
+  font-size: 1rem;
   line-height: 1.5;
-  margin: 0 0 0.4375em;
+  margin: 0 0 0.5em;
   padding: 0; }
 
 /*# sourceMappingURL=styles.css.map */
