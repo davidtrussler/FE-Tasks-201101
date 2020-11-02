@@ -1,8 +1,8 @@
 # FE Tasks, 201101
 
-This is a quick technical aptitude test for front end development. 
+This is a set of technical aptitude tests for front end development. 
 
-There is a src folder included in this package, try to organise your work in this folder.
+Work is organised in the `src` folder.
 
 If you are attempting the bonus tasks 5 & 6:
 - Feel free to use any build tools of your choice for compiling sass to css.
@@ -22,7 +22,8 @@ If you are attempting the bonus tasks 5 & 6:
 Example of a card: 
 ![Card example](https://github.com/davidtrussler/NS_FE-test/blob/main/card.png "Card example")
 
-3. In SCSS, build styling to support the card that you have built in task 2 using BEM naming conventions.
+3. Builds styling to support the card built in task 2 using SCSS and BEM naming conventions.
+  - run `sass --watch src/styles/styles.scss:src/styles/styles.css` to use in development
 
 4. In Javascript (ES5 or ES6): given an array of objects:
 
