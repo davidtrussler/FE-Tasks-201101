@@ -22,3 +22,6 @@ people.sort(function(a, b) {
 
 	return 0;
 });
+
+// Pull just the ages into a new array
+let ages = people.map(person => person.age); 
