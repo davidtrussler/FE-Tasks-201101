@@ -9,3 +9,16 @@ var people = [
 people.sort(function(a, b) {
 	return b.age - a.age; 
 }); 
+
+// Order the people by name alphabetically A-Z
+people.sort(function(a, b) {
+	if (a.name < b.name) {
+		return -1; 
+	}
+
+	if (a.name > b.name) {
+		return 1; 
+	}
+
+	return 0;
+});
